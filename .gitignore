@@ -1,0 +1,51 @@
+# Built application files
+*.apk
+*.ap_
+*.aab
+
+# Files for the ART/Dalvik VM
+*.dex
+
+# Java class files
+*.class
+
+# Generated files
+bin/
+gen/
+out/
+build/
+.gradle/
+.cxx/
+android_app/app/build/
+android_app/.gradle/
+
+# Local configuration file (sdk path, etc)
+local.properties
+
+# Log Files
+*.log
+mac_app/*.log
+
+# Android Studio Navigation editor temp files
+.navigation/
+
+# Android Studio captures folder
+captures/
+
+# Keystore files
+*.jks
+*.keystore
+
+# Mac App (Python)
+mac_app/venv/
+mac_app/__pycache__/
+*.pyc
+
+# IDEs
+.idea/
+.vscode/
+*.iml
+*.iws
+
+# OS files
+.DS_Store
