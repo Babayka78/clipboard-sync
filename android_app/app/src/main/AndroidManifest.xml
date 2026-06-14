@@ -32,11 +32,11 @@
                 <category android:name="android.intent.category.DEFAULT" />
                 <data android:mimeType="text/plain" />
             </intent-filter>
-            <!-- Receive Images -->
+            <!-- Receive any file (images, documents, audio, video, etc.) -->
             <intent-filter>
                 <action android:name="android.intent.action.SEND" />
                 <category android:name="android.intent.category.DEFAULT" />
-                <data android:mimeType="image/*" />
+                <data android:mimeType="*/*" />
             </intent-filter>
             <!-- Process Text (appears directly in text selection popup) -->
             <intent-filter android:label="Send to Mac">
