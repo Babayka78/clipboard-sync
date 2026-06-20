@@ -2,6 +2,8 @@
 
 Clipboard Sync is a seamless, local-network tool that allows you to instantly send text, images, and arbitrary files from your Android device directly to your Mac. 
 
+> **Note:** This is a one-way transfer tool (Android -> Mac). Sending files or clipboard content from Mac back to Android is not currently supported.
+
 You can choose to either **copy the payload to your Mac's clipboard** (ready to be pasted with `Cmd+V`) or **save it as a file** on your Mac.
 
 ## Features
